@@ -10,34 +10,80 @@
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".FirstFragment">
+        tools:context=".FirstFragment"
+        android:fillViewport="true">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="16dp">
+            android:padding="16dp"
+            tools:context=".FirstFragment">
 
+
+            />
             <Button
                 android:id="@+id/button_first"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/next"
-                app:layout_constraintBottom_toTopOf="@id/textview_first"
+                android:layout_marginBottom="296dp"
+                android:text="@string/log_in"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-            />
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent" />
 
             <TextView
                 android:id="@+id/textview_first"
+                android:layout_width="169dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="32dp"
+                android:contentDescription="@string/sign_in"
+                android:importantForAutofill="no"
+                android:text="@string/sign_in"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.066"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="TextSizeCheck" />
+
+            <EditText
+                android:id="@+id/editTextTextPassword"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="@string/lorem_ipsum"
-                app:layout_constraintBottom_toBottomOf="parent"
+                android:contentDescription="@string/enter_password"
+                android:ems="10"
+                android:hint="@string/password"
+                android:importantForAutofill="no"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:textColorHint="#757575"
+                app:layout_constraintBottom_toTopOf="@+id/button_first"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.194"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/button_first" />
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2"
+                app:layout_constraintVertical_bias="0.467"
+                tools:ignore="ContentDescription" />
+
+            <EditText
+                android:id="@+id/editTextTextEmailAddress2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:contentDescription="@string/enter_username_or_e_mail_address"
+                android:ems="10"
+                android:hint="@string/username_or_email"
+                android:importantForAutofill="no"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:textColorHint="#757575"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.203"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textview_first"
+                tools:ignore="ContentDescription" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
 </layout>
