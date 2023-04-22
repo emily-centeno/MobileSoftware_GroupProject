@@ -22,7 +22,18 @@
         tools:layout="@layout/fragment_second">
 
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/action_SecondFragment_to_StartHereFragment"
+            app:destination="@id/StartHereFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/StartHereFragment"
+        android:name="com.example.mobilesoftware_finalproject1.StartHereFragment"
+        android:label="Start Here"
+        tools:layout="@layout/fragment_start_here">
+
+<!--        <action-->
+<!--            android:id="@+id/action_StartHereFragment_to_WelcomeFragment"-->
+<!--            app:destination="@id/Welcome Fragment"/>-->
     </fragment>
 </navigation>
