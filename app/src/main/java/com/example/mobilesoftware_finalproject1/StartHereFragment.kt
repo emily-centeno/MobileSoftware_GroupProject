@@ -5,8 +5,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.navigation.fragment.findNavController
-import com.example.mobilesoftware_finalproject1.databinding.FragmentSecondBinding
 import com.example.mobilesoftware_finalproject1.databinding.FragmentStartHereBinding
 
 class StartHereFragment: Fragment() {

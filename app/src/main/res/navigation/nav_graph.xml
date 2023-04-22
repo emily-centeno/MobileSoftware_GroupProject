@@ -31,9 +31,27 @@
         android:name="com.example.mobilesoftware_finalproject1.StartHereFragment"
         android:label="Start Here"
         tools:layout="@layout/fragment_start_here">
-
-<!--        <action-->
-<!--            android:id="@+id/action_StartHereFragment_to_WelcomeFragment"-->
-<!--            app:destination="@id/Welcome Fragment"/>-->
     </fragment>
+
+    <fragment
+        android:id="@+id/WelcomeFragment"
+        android:name="com.example.mobilesoftware_finalproject1.WelcomeFragment"
+        android:label="Welcome"
+        tools:layout="@layout/fragment_welcome">
+    </fragment>
+
+    <fragment
+        android:id="@+id/SyllabusFragment"
+        android:name="com.example.mobilesoftware_finalproject1.SyllabusFragment"
+        android:label="Syllabus - PDF"
+        tools:layout="@layout/fragment_syllabus">
+    </fragment>
+
+    <fragment
+        android:id="@+id/LearningModulesFragmentt"
+        android:name="com.example.mobilesoftware_finalproject1.LearningModulesFragment"
+        android:label="Welcome"
+        tools:layout="@layout/fragment_learning_modules">
+    </fragment>
+
 </navigation>
