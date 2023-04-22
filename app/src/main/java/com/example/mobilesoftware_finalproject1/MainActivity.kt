@@ -9,6 +9,7 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
+import android.view.ViewGroup
 import com.example.mobilesoftware_finalproject1.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -28,6 +29,12 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         appBarConfiguration = AppBarConfiguration(navController.graph)
         setupActionBarWithNavController(navController, appBarConfiguration)
+
+        val container = findViewById<ViewGroup>(R.id.container)
+        val fragmentLearningModules = LearningModulesFragment()
+        supportFragmentManager.beginTransaction()
+            .add(container.id, fragmentLearningModules)
+            .commit()
 
     }
 
