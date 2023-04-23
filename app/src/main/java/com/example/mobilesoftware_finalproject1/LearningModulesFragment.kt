@@ -17,7 +17,7 @@ class LearningModulesFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val fragmentManager = requireActivity().supportFragmentManager
+        // val fragmentManager = requireActivity().supportFragmentManager
         _binding = FragmentLearningModulesBinding.inflate(inflater, container, false)
         return binding.root
 

@@ -25,19 +25,28 @@
             android:id="@+id/action_SecondFragment_to_StartHereFragment"
             app:destination="@id/StartHereFragment" />
 
+        <action
+            android:id="@+id/action_SecondFragment_to_LearningModulesFragment"
+            app:destination="@id/LearningModulesFragment" />
+
     </fragment>
     <fragment
         android:id="@+id/StartHereFragment"
         android:name="com.example.mobilesoftware_finalproject1.StartHereFragment"
         android:label="Start Here"
         tools:layout="@layout/fragment_start_here">
+
+        <action
+            android:id="@+id/action_StartHereFragment_to_StartHereItemsFragment"
+            app:destination="@id/StartHereItemsFragment" />
+
     </fragment>
 
     <fragment
-        android:id="@+id/WelcomeFragment"
-        android:name="com.example.mobilesoftware_finalproject1.WelcomeFragment"
+        android:id="@+id/StartHereItemsFragment"
+        android:name="com.example.mobilesoftware_finalproject1.StartHereItemsFragment"
         android:label="Welcome"
-        tools:layout="@layout/fragment_welcome">
+        tools:layout="@layout/fragment_start_here_items">
     </fragment>
 
     <fragment
@@ -48,10 +57,11 @@
     </fragment>
 
     <fragment
-        android:id="@+id/LearningModulesFragmentt"
+        android:id="@+id/LearningModulesFragment"
         android:name="com.example.mobilesoftware_finalproject1.LearningModulesFragment"
-        android:label="Welcome"
+        android:label="Learning Modules"
         tools:layout="@layout/fragment_learning_modules">
     </fragment>
+
 
 </navigation>

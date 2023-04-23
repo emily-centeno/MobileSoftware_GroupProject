@@ -32,9 +32,14 @@ class SecondFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.buttonSecond.setOnClickListener {
+        binding.buttonLearningModules.setOnClickListener {
+            findNavController().navigate(R.id.action_SecondFragment_to_LearningModulesFragment)
+        }
+
+        binding.buttonStartHere.setOnClickListener {
             findNavController().navigate(R.id.action_SecondFragment_to_StartHereFragment)
         }
+
 
     }
 

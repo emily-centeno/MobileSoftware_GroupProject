@@ -19,18 +19,18 @@
             android:padding="16dp">
 
             <Button
-                android:id="@+id/button_second"
+                android:id="@+id/buttonStartHere"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/start_here"
-                app:layout_constraintBottom_toTopOf="@+id/button_syllabus"
+                app:layout_constraintBottom_toTopOf="@+id/buttonLearningModules"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.765" />
 
             <Button
-                android:id="@+id/button_syllabus"
+                android:id="@+id/buttonLearningModules"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="236dp"

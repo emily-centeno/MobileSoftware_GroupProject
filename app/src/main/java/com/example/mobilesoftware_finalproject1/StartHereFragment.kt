@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.example.mobilesoftware_finalproject1.databinding.FragmentStartHereBinding
 
 class StartHereFragment: Fragment() {
@@ -23,9 +24,9 @@ class StartHereFragment: Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-//        binding.buttonSecond.setOnClickListener {
-//            findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
-//        } CHANGE ACTION AND  BUTTON
+        binding.buttonWelcome.setOnClickListener {
+            findNavController().navigate(R.id.action_StartHereFragment_to_StartHereItemsFragment)
+        }
     }
 
 

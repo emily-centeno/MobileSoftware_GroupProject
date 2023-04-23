@@ -15,4 +15,13 @@
     <string name="password">password</string>
     <string name="start_here">Start Here</string>
     <string name="learning_modules">Learning Modules</string>
+    <string name="welcome">Welcome</string>
+    <string name="syllabus">Syllabus</string>
+    <string name="project_instructions">Project Instructions</string>
+    <string name="lab_report_instructions">Lab Report Instructions</string>
+    <string name="welcome_fragment_text">Welcome to CS 4322 Mobile Application Development!  This is Mrs. Wang and I am looking forward to meeting you all. During this course, you will learn mobile application development environments, platforms, architecture, design and security.
+
+Please review the Syllabus before you start the first module.
+
+Course schedule can be found in the  Syllabus. The detailed content for each learning module can also be found at "Learning Modules".</string>
 </resources>
