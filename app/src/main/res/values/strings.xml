@@ -20,8 +20,80 @@
     <string name="project_instructions">Project Instructions</string>
     <string name="lab_report_instructions">Lab Report Instructions</string>
     <string name="welcome_fragment_text">Welcome to CS 4322 Mobile Application Development!  This is Mrs. Wang and I am looking forward to meeting you all. During this course, you will learn mobile application development environments, platforms, architecture, design and security.
-
 Please review the Syllabus before you start the first module.
 
 Course schedule can be found in the  Syllabus. The detailed content for each learning module can also be found at "Learning Modules".</string>
+    <string name="lab_instructions_details">For each lab, please follow the lab manual instruction.
+
+    At the end of each lab activity, please screenshot your lab results in the coding IDE.
+
+    Then, paste all the screenshots into a document,
+
+    Name your lab as “ YourLastName_Lab_X_Report”, such as “Wang_Lab_2_Report”
+
+        Convert it into a PDF file to upload in the D2L.</string>
+    <string name="project_instructions_details">CS 4322 Group Project
+
+
+You can work on the project(s) as a group of two or three members.
+
+You can create your own mobile app, or you can choose CS4322 Mobile App (see below).
+
+
+CS4322 Mobile App
+
+
+Description:
+
+This project is to develop an Android Mobile App to access the learning material of this course. The mobile app should mimic the organization of the course material in the same modular way as in the D2L web course system. The specifications include:
+
+A top-level module “Start Here” with sub-modules:
+
+“Welcome”
+
+“Syllabus”
+
+“Lab Report Instruction”
+
+“Project Instruction”
+
+Another top-level module, “Learning Modules”, with 13 lesson sub-modules, and each sub-module has two children sub-modules:
+
+“Slides”
+
+“Lab”
+
+User registration and authentication (This can be implemented as the last step since we will talk about the data and security in the last week, but you are highly encouraged to do your research to have it done in advance.)
+
+You are allowed to be creative in the UI designs.
+
+
+Submissions:
+
+A midterm report (presentation slides) that should include
+
+A mock design of all the UI.
+
+The flowchart of the coding-level design with classes/functions, if possible.
+
+
+A final report (presentation slides) that should include
+
+The complete implementation
+
+A prototype App to demo
+
+The report presentations are scheduled as in the syllabus.
+
+
+Grading Rubrics:
+
+UI Friendliness (25%)
+
+Functionalities (40%)
+
+Presentation and Communications (10%)</string>
+    <string name="project_proposal">Project Proposal </string>
 </resources>
+
+<!--TODO: CHANGE FROM ONE STRING TO MULTIPLE STRINGS FOR BETTER UI FOR LARGER TEXTS -->

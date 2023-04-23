@@ -30,6 +30,7 @@
                 android:text="@string/welcome_fragment_text"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
         </androidx.core.widget.NestedScrollView>
+<!--        TODO: Make text dynamic based on previous button clicked -->
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
