@@ -47,6 +47,10 @@
         android:name="com.example.mobilesoftware_finalproject1.StartHereItemsFragment"
         android:label="Welcome"
         tools:layout="@layout/fragment_start_here_items">
+
+        <argument
+            android:name="textResourceId"
+            app:argType="integer"/>
     </fragment>
 
     <fragment
