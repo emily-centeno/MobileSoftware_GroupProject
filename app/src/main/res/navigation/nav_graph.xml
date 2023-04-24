@@ -39,6 +39,12 @@
         <action
             android:id="@+id/action_StartHereFragment_to_StartHereItemsFragment"
             app:destination="@id/StartHereItemsFragment" />
+        <action
+            android:id="@+id/action_StartHereFragment_to_PDFsFragment"
+            app:destination="@+id/PDFsFragment" />
+        <action
+            android:id="@+id/action_StartHereFragment_to_ProjectFragment"
+            app:destination="@+id/ProjectFragment" />
 
     </fragment>
 
@@ -53,9 +59,9 @@
     </fragment>
 
     <fragment
-        android:id="@+id/SyllabusFragment"
+        android:id="@+id/PDFsFragment"
         android:name="com.example.mobilesoftware_finalproject1.PDFsFragment"
-        android:label="Syllabus - PDF"
+        android:label="CHANGE THIS"
         tools:layout="@layout/fragment_pdfs">
     </fragment>
 
@@ -64,6 +70,13 @@
         android:name="com.example.mobilesoftware_finalproject1.LearningModulesFragment"
         android:label="Learning Modules"
         tools:layout="@layout/fragment_learning_modules">
+    </fragment>
+
+    <fragment
+        android:id="@+id/ProjectFragment"
+        android:name="com.example.mobilesoftware_finalproject1.ProjectFragment"
+        android:label="Project Instructions"
+        tools:layout="@layout/fragment_project">
     </fragment>
 
 
