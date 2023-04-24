@@ -45,15 +45,18 @@
     <fragment
         android:id="@+id/StartHereItemsFragment"
         android:name="com.example.mobilesoftware_finalproject1.StartHereItemsFragment"
-        android:label="Welcome"
         tools:layout="@layout/fragment_start_here_items">
+
+        <argument
+            android:name="textResourceId"
+            app:argType="integer"/>
     </fragment>
 
     <fragment
         android:id="@+id/SyllabusFragment"
-        android:name="com.example.mobilesoftware_finalproject1.SyllabusFragment"
+        android:name="com.example.mobilesoftware_finalproject1.PDFsFragment"
         android:label="Syllabus - PDF"
-        tools:layout="@layout/fragment_syllabus">
+        tools:layout="@layout/fragment_pdfs">
     </fragment>
 
     <fragment
