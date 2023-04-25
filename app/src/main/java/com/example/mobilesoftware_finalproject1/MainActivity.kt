@@ -1,5 +1,8 @@
 package com.example.mobilesoftware_finalproject1
 
+import android.app.Activity
+import android.graphics.pdf.PdfRenderer
+import android.net.Uri
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.WindowCompat
@@ -16,6 +19,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         WindowCompat.setDecorFitsSystemWindows(window, false)
@@ -35,7 +39,6 @@ class MainActivity : AppCompatActivity() {
         supportFragmentManager.beginTransaction()
             .add(container.id, fragmentLearningModules)
             .commit()
-
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

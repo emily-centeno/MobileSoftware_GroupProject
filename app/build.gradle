@@ -50,7 +50,6 @@ android {
 }
 
 dependencies {
-    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
     implementation "androidx.compose.material3:material3:latest.release"
     implementation "androidx.compose.material3:material3-window-size-class:latest.release"
     implementation 'androidx.core:core-ktx:1.10.0'

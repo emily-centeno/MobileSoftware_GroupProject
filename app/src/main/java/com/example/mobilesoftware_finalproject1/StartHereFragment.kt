@@ -39,13 +39,8 @@ class StartHereFragment : Fragment() {
             }
             findNavController().navigate(R.id.action_StartHereFragment_to_StartHereItemsFragment, bundle)
         }
-
         binding.buttonSyllabus.setOnClickListener {
-            findNavController().navigate(R.id.action_StartHereFragment_to_PDFsFragment)
-
-        }
-        binding.buttonProject.setOnClickListener {
-            findNavController().navigate(R.id.action_StartHereFragment_to_ProjectFragment)
+            findNavController().navigate(R.id.action_StartHereFragment_to_SyllabusFragment)
         }
 
 
