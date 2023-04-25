@@ -63,6 +63,18 @@
         android:name="com.example.mobilesoftware_finalproject1.LearningModulesFragment"
         android:label="Learning Modules"
         tools:layout="@layout/fragment_learning_modules">
+
+        <action
+            android:id="@+id/action_LearningModulesFragment_to_ModuleResourcesFragment"
+            app:destination="@id/ModuleResourcesFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/ModuleResourcesFragment"
+        android:name="com.example.mobilesoftware_finalproject1.ModuleResourcesFragment"
+        android:label="Module Resources"
+        tools:layout="@layout/fragment_module_resources">
     </fragment>
 
     <fragment
