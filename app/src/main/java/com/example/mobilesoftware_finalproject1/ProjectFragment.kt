@@ -1,5 +1,7 @@
 package com.example.mobilesoftware_finalproject1
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -31,6 +33,14 @@ class ProjectFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
+        binding.buttonInstructions.setOnClickListener {
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1GTBv9x7EjhJvzUesuANj7rsX6bLmYgvq/view?usp=sharing"))
+            startActivity(intent)
+        }
+        binding.buttonProposal.setOnClickListener {
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1rLCZpiYHZSzTO848MXce3vlkWgM2w9z2/view?usp=sharing"))
+            startActivity(intent)
+        }
     }
 
     override fun onDestroyView() {
