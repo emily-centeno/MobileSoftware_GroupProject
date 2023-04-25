@@ -91,5 +91,15 @@
         tools:layout="@layout/fragment_syllabus">
     </fragment>
 
+    <fragment
+        android:id="@+id/WebViewFragment"
+        android:name="com.example.mobilesoftware_finalproject1.WebViewFragment"
+        android:label="Web View"
+        tools:layout="@layout/fragment_web_view">
+        <action
+            android:id="@+id/action_ModuleResourcesFragment_to_WebViewFragment"
+            app:destination="@id/WebViewFragment" />
+    </fragment>
+
 
 </navigation>

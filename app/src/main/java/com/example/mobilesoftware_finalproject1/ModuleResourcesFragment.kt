@@ -1,9 +1,12 @@
 package com.example.mobilesoftware_finalproject1
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.webkit.WebView
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.mobilesoftware_finalproject1.databinding.FragmentModuleResourcesBinding
@@ -15,14 +18,17 @@ class ModuleResourcesFragment : Fragment() {
     // This property is only valid between onCreateView and
     // onDestroyView.
     private val binding get() = _binding!!
+    private var slideURL : String? = ""
+    private var labURL : String? = ""
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val urlSlides = arguments?.getString(URL_KEY_SLIDES)
-        val urlLab = arguments?.getString(URL_KEY_LAB)
 
+        val args = arguments ?: return binding.root
+        slideURL = args.getString("slideURL")
+        labURL = args.getString("labURL")
 
         _binding = FragmentModuleResourcesBinding.inflate(inflater, container, false)
         return binding.root
@@ -32,17 +38,22 @@ class ModuleResourcesFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-//        binding.buttonFirst.setOnClickListener {
-//            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
-//        }
+
+
+        binding.button17.setOnClickListener {
+            val bundle = Bundle()
+            bundle.putString("slideURL", slideURL)
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(slideURL))
+            startActivity(intent)
+        }
+        binding.button18.setOnClickListener {
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(labURL))
+            startActivity(intent)
+        }
     }
 
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
-    }
-    companion object {
-        const val URL_KEY_SLIDES = "url_key_1"
-        const val URL_KEY_LAB = "url_key_2"
     }
 }

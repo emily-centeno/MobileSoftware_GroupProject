@@ -13,20 +13,17 @@
         android:fillViewport="true"
         android:foregroundTint="#682828">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <Button
                 android:id="@+id/button17"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="#CF3B3B"
-                android:text="Slides"
-                app:layout_constraintBottom_toTopOf="@+id/button18"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:text="Slides" />
 
             <Button
                 android:id="@+id/button18"
@@ -34,13 +31,14 @@
                 android:layout_height="wrap_content"
                 android:background="#8E4E4E"
                 android:backgroundTint="#9C27B0"
-                android:text="Labs"
-                app:iconTint="#703333"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
+                android:text="Labs" />
+
+            <WebView
+                android:id="@+id/web_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 
 </layout>

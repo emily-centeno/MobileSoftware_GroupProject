@@ -42,6 +42,10 @@ class StartHereFragment : Fragment() {
         binding.buttonSyllabus.setOnClickListener {
             findNavController().navigate(R.id.action_StartHereFragment_to_SyllabusFragment)
         }
+        binding.buttonProject.setOnClickListener {
+            findNavController().navigate(R.id.action_StartHereFragment_to_ProjectFragment)
+        }
+
 
 
     }
