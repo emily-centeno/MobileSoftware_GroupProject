@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <data>
@@ -22,78 +22,149 @@
                 android:id="@+id/button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="L1: Course Intro and Kotlin Basics" />
+                android:layout_margin="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:backgroundTint="@color/md_theme_light_tertiary"
+                android:breakStrategy="simple"
+                android:enabled="true"
+                android:fadeScrollbars="true"
+                android:filterTouchesWhenObscured="true"
+                android:fontFamily="@font/lato"
+                android:text="L1: Course Intro and Kotlin Basics"
+                app:strokeColor="#7A1B1B" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:backgroundTint="@color/md_theme_light_tertiary"
+                android:fontFamily="@font/lato"
                 android:text="L2: Functions" />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:backgroundTint="@color/md_theme_light_tertiary"
+                android:fontFamily="@font/lato"
                 android:text="L3: Class and Objects" />
 
             <Button
                 android:id="@+id/button4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:backgroundTint="@color/md_theme_light_tertiary"
+                android:filterTouchesWhenObscured="true"
+                android:fontFamily="@font/lato"
                 android:text="L4: Build your first Android app" />
 
             <Button
                 android:id="@+id/button5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:backgroundTint="@color/md_theme_light_tertiary"
+                android:fontFamily="@font/lato"
                 android:text="L5: Layouts" />
 
             <Button
                 android:id="@+id/button6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:backgroundTint="@color/md_theme_light_tertiary"
+                android:fontFamily="@font/lato"
                 android:text="L6: App Navigation" />
 
             <Button
                 android:id="@+id/button7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:backgroundTint="@color/md_theme_light_tertiary"
+                android:fontFamily="@font/lato"
                 android:text="L7: Activity and Fragment Lifestyle" />
 
             <Button
                 android:id="@+id/button8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:backgroundTint="@color/md_theme_light_tertiary"
+                android:fontFamily="@font/lato"
                 android:text="L8: App Architecture(UI Layer)" />
 
             <Button
                 android:id="@+id/button9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:backgroundTint="@color/md_theme_light_tertiary"
+                android:fontFamily="@font/lato"
                 android:text="L9: App Architecture(Persistence Layer)" />
 
             <Button
                 android:id="@+id/button10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:backgroundTint="@color/md_theme_light_tertiary"
+                android:fontFamily="@font/lato"
                 android:text="L10: Advanced RecyclerView use cases " />
 
             <Button
                 android:id="@+id/button11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:backgroundTint="@color/md_theme_light_tertiary"
+                android:fontFamily="@font/lato"
                 android:text="L11: Connect to the internet" />
 
             <Button
                 android:id="@+id/button12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:backgroundTint="@color/md_theme_light_tertiary"
+                android:fontFamily="@font/lato"
                 android:text="L12: Repository pattern and WorkManager" />
 
             <Button
                 android:id="@+id/button13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:backgroundTint="@color/md_theme_light_tertiary"
+                android:fontFamily="@font/lato"
                 android:text="L13:App UI Design" />
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
