@@ -29,7 +29,6 @@ class StartHereItemsFragment : Fragment() {
         val textResourceId = args.getInt("textResourceId")
         val text = getString(textResourceId)
 
-        println(textResourceId)
         binding.textView.text = text
 
         Log.d("StartHereItemsFragment", "text: $text") // add this log statement to check the value of text
