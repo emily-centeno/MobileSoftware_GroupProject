@@ -34,13 +34,7 @@ class MainActivity : AppCompatActivity() {
         appBarConfiguration = AppBarConfiguration(navController.graph)
         setupActionBarWithNavController(navController, appBarConfiguration)
 
-        val container = findViewById<ViewGroup>(R.id.container)
-        val fragmentLearningModules = LearningModulesFragment()
-        supportFragmentManager.beginTransaction()
-            .add(container.id, fragmentLearningModules)
-            .commit()
     }
-
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.menu_main, menu)
