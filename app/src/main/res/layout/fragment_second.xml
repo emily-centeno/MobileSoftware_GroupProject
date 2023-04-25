@@ -20,32 +20,36 @@
 
             <Button
                 android:id="@+id/buttonStartHere"
-                android:layout_width="226dp"
-                android:layout_height="110dp"
+                android:layout_width="308dp"
+                android:layout_height="145dp"
                 android:layout_margin="15dp"
-                android:backgroundTint="@color/md_theme_light_tertiary"
-                android:fontFamily="@font/lato"
+                android:backgroundTint="#95C99B"
+                android:fontFamily="@font/bree_serif"
                 android:text="@string/start_here"
-                android:textSize="24sp"
+                android:textColor="@color/md_theme_light_onBackground"
+                android:textSize="34sp"
                 app:cornerRadius="@dimen/fab_margin"
                 app:layout_constraintBottom_toTopOf="@+id/buttonLearningModules"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.765" />
+                app:layout_constraintVertical_bias="0.571" />
 
             <Button
                 android:id="@+id/buttonLearningModules"
-                android:layout_width="226dp"
-                android:layout_height="110dp"
-                android:layout_marginBottom="236dp"
-                android:backgroundTint="@color/md_theme_light_tertiary"
-                android:fontFamily="@font/lato"
+                android:layout_width="308dp"
+                android:layout_height="145dp"
+                android:layout_marginBottom="180dp"
+                android:backgroundTint="#95C99B"
+                android:fontFamily="@font/bree_serif"
                 android:text="@string/learning_modules"
-                android:textSize="24sp"
+                android:textColor="@color/md_theme_light_onBackground"
+                android:textSize="34sp"
                 app:cornerRadius="@dimen/fab_margin"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
                 app:layout_constraintStart_toStartOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

@@ -17,24 +17,28 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="16dp"
-            tools:context=".FirstFragment">
+            tools:context=".FirstFragment"><![CDATA[
 
 
             />
 
+
+
+            ]]>
+
             <Button
                 android:id="@+id/button_first"
-                android:layout_width="100dp"
-                android:layout_height="50dp"
-                android:layout_marginBottom="296dp"
-                android:backgroundTint="@color/md_theme_light_tertiary"
-                android:fontFamily="@font/lato"
+                android:layout_width="117dp"
+                android:layout_height="65dp"
+                android:layout_marginBottom="264dp"
+                android:backgroundTint="#95C99B"
+                android:fontFamily="@font/bree_serif"
                 android:text="@string/log_in"
+                android:textColor="@color/md_theme_light_onBackground"
                 android:textSize="16sp"
                 app:cornerRadius="@dimen/fab_margin"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <TextView
@@ -43,10 +47,11 @@
                 android:layout_height="80dp"
                 android:layout_marginTop="32dp"
                 android:contentDescription="@string/sign_in"
-                android:fontFamily="@font/lato"
+                android:fontFamily="@font/bree_serif"
                 android:importantForAutofill="no"
                 android:text="@string/sign_in"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                android:textColorHint="@color/md_theme_light_onBackground"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.066"
                 app:layout_constraintStart_toStartOf="parent"

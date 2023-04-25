@@ -20,152 +20,217 @@
 
             <Button
                 android:id="@+id/button"
+                style="@style/Widget.Material3.ExtendedFloatingActionButton.Secondary"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:layout_margin="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
-                android:backgroundTint="@color/md_theme_light_tertiary"
+                android:backgroundTint="#95C99B"
                 android:breakStrategy="simple"
                 android:enabled="true"
                 android:fadeScrollbars="true"
                 android:filterTouchesWhenObscured="true"
-                android:fontFamily="@font/lato"
+                android:fontFamily="@font/lato_bold"
                 android:text="L1: Course Intro and Kotlin Basics"
+                android:textColor="@color/md_theme_light_onBackground"
+                android:textSize="24sp"
+                app:cornerRadius="@dimen/fab_margin"
+                app:iconSize="30dp"
                 app:strokeColor="#7A1B1B" />
 
             <Button
                 android:id="@+id/button2"
+                style="@style/Widget.Material3.ExtendedFloatingActionButton.Secondary"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:layout_margin="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
-                android:backgroundTint="@color/md_theme_light_tertiary"
-                android:fontFamily="@font/lato"
-                android:text="L2: Functions" />
+                android:backgroundTint="#95C99B"
+                android:fontFamily="@font/lato_bold"
+                android:text="L2: Functions"
+                android:textColor="@color/md_theme_light_onBackground"
+                android:textSize="24sp"
+                app:cornerRadius="@dimen/fab_margin"
+                app:iconSize="30dp" />
 
             <Button
                 android:id="@+id/button3"
+                style="@style/Widget.Material3.ExtendedFloatingActionButton.Secondary"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:layout_margin="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
-                android:backgroundTint="@color/md_theme_light_tertiary"
-                android:fontFamily="@font/lato"
-                android:text="L3: Class and Objects" />
+                android:backgroundTint="#95C99B"
+                android:fontFamily="@font/lato_bold"
+                android:text="L3: Class and Objects"
+                android:textColor="@color/md_theme_light_onBackground"
+                android:textSize="24sp"
+                app:cornerRadius="@dimen/fab_margin"
+                app:iconSize="30dp" />
 
             <Button
                 android:id="@+id/button4"
+                style="@style/Widget.Material3.ExtendedFloatingActionButton.Secondary"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:layout_margin="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
-                android:backgroundTint="@color/md_theme_light_tertiary"
+                android:backgroundTint="#95C99B"
                 android:filterTouchesWhenObscured="true"
-                android:fontFamily="@font/lato"
-                android:text="L4: Build your first Android app" />
+                android:fontFamily="@font/lato_bold"
+                android:text="L4: Build your first Android app"
+                android:textColor="@color/md_theme_light_onBackground"
+                android:textSize="24sp"
+                app:cornerRadius="@dimen/fab_margin"
+                app:iconSize="30dp" />
 
             <Button
                 android:id="@+id/button5"
+                style="@style/Widget.Material3.ExtendedFloatingActionButton.Secondary"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:layout_margin="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
-                android:backgroundTint="@color/md_theme_light_tertiary"
-                android:fontFamily="@font/lato"
-                android:text="L5: Layouts" />
+                android:backgroundTint="#95C99B"
+                android:fontFamily="@font/lato_bold"
+                android:text="L5: Layouts"
+                android:textColor="@color/md_theme_light_onBackground"
+                android:textSize="24sp"
+                app:cornerRadius="@dimen/fab_margin"
+                app:iconSize="30dp" />
 
             <Button
                 android:id="@+id/button6"
+                style="@style/Widget.Material3.ExtendedFloatingActionButton.Secondary"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:layout_margin="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
-                android:backgroundTint="@color/md_theme_light_tertiary"
-                android:fontFamily="@font/lato"
-                android:text="L6: App Navigation" />
+                android:backgroundTint="#95C99B"
+                android:fontFamily="@font/lato_bold"
+                android:text="L6: App Navigation"
+                android:textColor="@color/md_theme_light_onBackground"
+                android:textSize="24sp"
+                app:cornerRadius="@dimen/fab_margin"
+                app:iconSize="30dp" />
 
             <Button
                 android:id="@+id/button7"
+                style="@style/Widget.Material3.ExtendedFloatingActionButton.Secondary"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:layout_margin="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
-                android:backgroundTint="@color/md_theme_light_tertiary"
-                android:fontFamily="@font/lato"
-                android:text="L7: Activity and Fragment Lifestyle" />
+                android:backgroundTint="#95C99B"
+                android:fontFamily="@font/lato_bold"
+                android:text="L7: Activity and Fragment Lifestyle"
+                android:textColor="@color/md_theme_light_onBackground"
+                android:textSize="24sp"
+                app:cornerRadius="@dimen/fab_margin"
+                app:iconSize="30dp" />
 
             <Button
                 android:id="@+id/button8"
+                style="@style/Widget.Material3.ExtendedFloatingActionButton.Secondary"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:layout_margin="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
-                android:backgroundTint="@color/md_theme_light_tertiary"
-                android:fontFamily="@font/lato"
-                android:text="L8: App Architecture(UI Layer)" />
+                android:backgroundTint="#95C99B"
+                android:fontFamily="@font/lato_bold"
+                android:text="L8: App Architecture(UI Layer)"
+                android:textColor="@color/md_theme_light_onBackground"
+                android:textSize="24sp"
+                app:cornerRadius="@dimen/fab_margin"
+                app:iconSize="30dp" />
 
             <Button
                 android:id="@+id/button9"
+                style="@style/Widget.Material3.ExtendedFloatingActionButton.Secondary"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:layout_margin="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
-                android:backgroundTint="@color/md_theme_light_tertiary"
-                android:fontFamily="@font/lato"
-                android:text="L9: App Architecture(Persistence Layer)" />
+                android:backgroundTint="#95C99B"
+                android:fontFamily="@font/lato_bold"
+                android:text="L9: App Architecture(Persistence Layer)"
+                android:textColor="@color/md_theme_light_onBackground"
+                android:textSize="24sp"
+                app:cornerRadius="@dimen/fab_margin"
+                app:iconSize="30dp" />
 
             <Button
                 android:id="@+id/button10"
+                style="@style/Widget.Material3.ExtendedFloatingActionButton.Secondary"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:layout_margin="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
-                android:backgroundTint="@color/md_theme_light_tertiary"
-                android:fontFamily="@font/lato"
-                android:text="L10: Advanced RecyclerView use cases " />
+                android:backgroundTint="#95C99B"
+                android:fontFamily="@font/lato_bold"
+                android:text="L10: Advanced RecyclerView use cases "
+                android:textColor="@color/md_theme_light_onBackground"
+                android:textSize="24sp"
+                app:cornerRadius="@dimen/fab_margin"
+                app:iconSize="30dp" />
 
             <Button
                 android:id="@+id/button11"
+                style="@style/Widget.Material3.ExtendedFloatingActionButton.Secondary"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:layout_margin="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
-                android:backgroundTint="@color/md_theme_light_tertiary"
-                android:fontFamily="@font/lato"
-                android:text="L11: Connect to the internet" />
+                android:backgroundTint="#95C99B"
+                android:fontFamily="@font/lato_bold"
+                android:text="L11: Connect to the internet"
+                android:textColor="@color/md_theme_light_onBackground"
+                android:textSize="24sp"
+                app:cornerRadius="@dimen/fab_margin"
+                app:iconSize="24dp" />
 
             <Button
                 android:id="@+id/button12"
+                style="@style/Widget.Material3.ExtendedFloatingActionButton.Secondary"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:layout_margin="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
-                android:backgroundTint="@color/md_theme_light_tertiary"
-                android:fontFamily="@font/lato"
-                android:text="L12: Repository pattern and WorkManager" />
+                android:backgroundTint="#95C99B"
+                android:fontFamily="@font/lato_bold"
+                android:text="L12: Repository pattern and WorkManager"
+                android:textColor="@color/md_theme_light_onBackground"
+                android:textSize="24sp"
+                app:cornerRadius="@dimen/fab_margin"
+                app:iconSize="24dp" />
 
             <Button
                 android:id="@+id/button13"
+                style="@style/Widget.Material3.ExtendedFloatingActionButton.Secondary"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:layout_margin="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
-                android:backgroundTint="@color/md_theme_light_tertiary"
-                android:fontFamily="@font/lato"
-                android:text="L13:App UI Design" />
+                android:backgroundTint="#95C99B"
+                android:fontFamily="@font/lato_bold"
+                android:text="L13:App UI Design"
+                android:textColor="@color/md_theme_light_onBackground"
+                android:textSize="24sp"
+                app:cornerRadius="@dimen/fab_margin"
+                app:iconSize="24dp" />
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 
