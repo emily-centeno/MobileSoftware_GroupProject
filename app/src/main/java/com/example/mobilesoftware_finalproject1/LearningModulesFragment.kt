@@ -106,7 +106,6 @@ class LearningModulesFragment : Fragment() {
 //                .commit()
 //        }
 
-
     }
 
     override fun onDestroyView() {
