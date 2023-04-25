@@ -19,9 +19,13 @@
 
             <Button
                 android:id="@+id/buttonWelcome"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/md_theme_light_tertiary"
+                android:fontFamily="@font/lato"
                 android:text="@string/welcome"
+                android:textSize="20sp"
+                app:cornerRadius="@dimen/fab_margin"
                 app:layout_constraintBottom_toTopOf="@+id/buttonSyllabus"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -30,37 +34,51 @@
 
             <Button
                 android:id="@+id/buttonSyllabus"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="440dp"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="408dp"
+                android:backgroundTint="@color/md_theme_light_tertiary"
+                android:fontFamily="@font/lato"
                 android:text="@string/syllabus"
+                android:textSize="20sp"
+                app:cornerRadius="@dimen/fab_margin"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintHorizontal_bias="0.502"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <Button
                 android:id="@+id/buttonLabReport"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
                 android:layout_marginTop="155dp"
                 android:layout_marginBottom="139dp"
+                android:backgroundTint="@color/md_theme_light_tertiary"
+                android:fontFamily="@font/lato"
+                android:maxHeight="30dp"
                 android:text="@string/lab_report_instructions"
+                android:textSize="20sp"
+                app:cornerRadius="@dimen/fab_margin"
                 app:layout_constraintBottom_toTopOf="@+id/buttonProject"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.497"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/buttonSyllabus"
-                app:layout_constraintVertical_bias="0.785" />
+                app:layout_constraintVertical_bias="0.0" />
 
             <Button
                 android:id="@+id/buttonProject"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="92dp"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="40dp"
+                android:backgroundTint="@color/md_theme_light_tertiary"
+                android:fontFamily="@font/lato"
                 android:text="@string/project_instructions"
+                android:textSize="20sp"
+                app:cornerRadius="@dimen/fab_margin"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
                 app:layout_constraintStart_toStartOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
