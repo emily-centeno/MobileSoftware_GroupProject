@@ -10,19 +10,20 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:foregroundTint="@color/md_theme_light_background"
         android:theme="@style/Theme.MobileSoftware_FinalProject1">
 
         <Button
             android:id="@+id/button_instructions"
             android:layout_width="317dp"
             android:layout_height="142dp"
-            android:layout_marginTop="140dp"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="@color/md_theme_light_tertiary"
             android:fontFamily="@font/lato"
             android:text="@string/project_instructions"
             android:textAppearance="@style/TextAppearance.AppCompat.Display2"
             app:cornerRadius="@dimen/fab_margin"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -31,6 +32,7 @@
             android:layout_width="317dp"
             android:layout_height="142dp"
             android:layout_marginTop="72dp"
+            android:backgroundTint="@color/md_theme_light_tertiary"
             android:fontFamily="@font/lato"
             android:text="@string/project_proposal"
             android:textAppearance="@style/TextAppearance.AppCompat.Display2"
@@ -39,7 +41,19 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button_instructions"
-            app:layout_constraintVertical_bias="0.259"
+            app:layout_constraintVertical_bias="0.152"
             tools:ignore="TextSizeCheck" />
+
+        <WebView
+            android:layout_width="46dp"
+            android:layout_height="23dp"
+            android:layout_marginTop="211dp"
+            android:background="@color/md_theme_light_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_proposal"
+            app:layout_constraintVertical_bias="1.0" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
