@@ -26,34 +26,6 @@ class LearningModulesFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-//        button1.setOnClickListener {
-//            val bundle = Bundle().apply {
-//                putString(ModuleResourcesFragment.URL_KEY_SLIDES, "http://www.example.com/url1")
-//            }
-//
-//            val fragmentB = ModuleResourcesFragment()
-//            fragmentB.arguments = bundle
-//
-//            childFragmentManager.beginTransaction()
-//                .replace(R.id.container, fragmentB)
-//                .addToBackStack(null)
-//                .commit()
-//        }
-
-//        button2.setOnClickListener {
-//            val bundle = Bundle().apply {
-//                putString(ModuleResourcesFragment.URL_KEY_LAB, "http://www.example.com/url2")
-//            }
-//
-//            val fragmentB = ModuleResourcesFragment()
-//            fragmentB.arguments = bundle
-//
-//            childFragmentManager.beginTransaction()
-//                .replace(R.id.container, fragmentB)
-//                .addToBackStack(null)
-//                .commit()
-//        }
-
 
     }
 

@@ -6,15 +6,11 @@
 
     </data>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/modulesRecycler"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scrollbars="vertical"
-        android:theme="@style/Theme.MobileSoftware_FinalProject1"
-        tools:itemCount="13"
-        tools:listitem="@layout/recycler_view_item"
-        />
+        android:layout_height="match_parent">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </layout>
 
