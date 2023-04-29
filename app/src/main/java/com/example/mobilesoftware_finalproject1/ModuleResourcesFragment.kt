@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import androidx.fragment.app.Fragment
 import com.example.mobilesoftware_finalproject1.databinding.FragmentModuleResourcesBinding
 
@@ -42,6 +43,8 @@ class ModuleResourcesFragment : Fragment() {
             val bundle = Bundle()
             bundle.putString("slideURL", slideURL)
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse(slideURL))
+            intent.setPackage("com.android.chrome")
+
             startActivity(intent)
         }
         binding.button18.setOnClickListener {
@@ -54,4 +57,8 @@ class ModuleResourcesFragment : Fragment() {
         super.onDestroyView()
         _binding = null
     }
+}
+
+class ModuleButtonComponent (var SlideURL: String, var LabURL: String, var button: Button) {
+//    constructor() : this(SlideURL, LabURL, button)
 }
