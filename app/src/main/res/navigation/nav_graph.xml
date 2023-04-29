@@ -84,11 +84,4 @@
         tools:layout="@layout/fragment_project">
     </fragment>
 
-    <fragment
-        android:id="@+id/SyllabusFragment"
-        android:name="com.example.mobilesoftware_finalproject1.SyllabusFragment"
-        android:label="Syllabus"
-        tools:layout="@layout/fragment_syllabus">
-    </fragment>
-
 </navigation>
