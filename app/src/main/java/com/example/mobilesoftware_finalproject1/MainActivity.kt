@@ -1,8 +1,6 @@
 package com.example.mobilesoftware_finalproject1
 
-import android.app.Activity
-import android.graphics.pdf.PdfRenderer
-import android.net.Uri
+
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.WindowCompat
@@ -12,7 +10,6 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
-import android.view.ViewGroup
 import com.example.mobilesoftware_finalproject1.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
