@@ -17,20 +17,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="16dp"
-            tools:context=".FirstFragment"><![CDATA[
-
-
-            />
-
-
-
-            ]]>
+            tools:context=".FirstFragment">
 
             <Button
                 android:id="@+id/button_first"
-                android:layout_width="117dp"
-                android:layout_height="65dp"
-                android:layout_marginBottom="264dp"
+                android:layout_width="308dp"
+                android:layout_height="68dp"
+                android:layout_marginBottom="272dp"
                 android:backgroundTint="#95C99B"
                 android:fontFamily="@font/lato_bold"
                 android:text="@string/log_in"
@@ -39,6 +32,7 @@
                 app:cornerRadius="@dimen/fab_margin"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <TextView
@@ -60,6 +54,7 @@
 
             <EditText
                 android:id="@+id/editTextTextPassword"
+                android:text = ""
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/enter_password"
@@ -72,17 +67,18 @@
                 android:textColorHint="#757575"
                 app:layout_constraintBottom_toTopOf="@+id/button_first"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.194"
+                app:layout_constraintHorizontal_bias="0.151"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2"
-                app:layout_constraintVertical_bias="0.467"
+                app:layout_constraintVertical_bias="0.274"
                 tools:ignore="ContentDescription" />
 
             <EditText
                 android:id="@+id/editTextTextEmailAddress2"
+                android:text = ""
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="36dp"
                 android:contentDescription="@string/enter_username_or_e_mail_address"
                 android:ems="10"
                 android:fontFamily="@font/lato"
@@ -92,10 +88,28 @@
                 android:minHeight="48dp"
                 android:textColorHint="#757575"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.203"
+                app:layout_constraintHorizontal_bias="0.151"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textview_first"
                 tools:ignore="ContentDescription" />
+
+            <Button
+                android:id="@+id/button_first2"
+                android:layout_width="274dp"
+                android:layout_height="46dp"
+                android:layout_marginBottom="112dp"
+                android:backgroundTint="@color/md_theme_dark_tertiary"
+                android:fontFamily="@font/lato_bold"
+                android:text="@string/sign_up"
+                android:textColor="@color/md_theme_light_onBackground"
+                android:textSize="20sp"
+                app:cornerRadius="@dimen/fab_margin"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button_first"
+                app:layout_constraintVertical_bias="0.261" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
